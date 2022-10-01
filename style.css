@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+nav img {
+    width: 34;
+    padding: 5x;
+    margin: auto 7px;
+    cursor: pointer;
+}
+
+nav img:hover {
+   opacity: .7; 
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a {
+    padding:10px;
+    float: inline;
+}
+
+.center {
+    flex: 1;
+    text-align: center;
+}
+
+.center .goo {
+    display:block;
+    margin: 0px auto;
+    margin-top: 107px;
+}
+
+.center .search {    
+    display: block;
+    position:relative;
+    border: 1px solid #ddd;
+    color: rgba(0,0,0,0.87);
+    width: 580px;
+    margin: 10px auto;
+    margin-top: -8px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    outline:none;
+    text-align: left;
+}
+
+.search:hover {
+    cursor:pointer;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.buts {
+    display: block;
+    position: fixed;
+    text-align: center;
+}
+
+.button  {
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px 10px;
+    width: 125px;
+    color: #666;
+    background: #f6f7f6;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 28px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.button:hover {
+    opacity: 0.8;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.lang {
+    text-align: center;
+}
+
+.lang a {
+    color: blue;
+    height: 60px;
+}
+
+footer {
+    background: #f2f2f2;
+}
+
+footer h4 {
+    color: rgba(0,0,0, 0.54);
+    border: 1px solid #eee;
+    
+}
+
+footer h4:hover {
+    text-decoration: underline;
+}
+
+footer a {
+    color:#5f6368;
+    display:inline-block;
+}
+
+.links {
+    border-top: 1px solid #ddd;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.first {
+    padding-left: 19px;
+    flex: 1;
+}
+
+.second {
+    padding-right: 19px;
+}
+
+
